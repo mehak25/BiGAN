@@ -35,23 +35,6 @@ To run Bi-GAN for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-To run Bi-GAN for air quality and MIMIC - 
-	Run "biGan/main_ganOrigActivity.ipynb"
-	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-
-	For training model-
-		Set train=True
-
-	For Imputation Testing model-
-		Set evalImp=True
-		Set missingRate=10 or 20 or 30 or 40 or 50
-
-	For Prediction Testing model-
-		Set evalPred=True
-		Set pred_len=8 or 7 or 6 or 5
-
 ===============================BRITS-I=============================================
 BRITS-I
 To run BRITS-I for EHR dataset - 
@@ -67,33 +50,12 @@ To run BRITS-I for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-To run BRITS-I for air quality and MIMIC - 
-	Run "britsI/main_original_activity.ipynb"
-	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-
-	For training model-
-		Set train=True
-
-	For Imputation Testing model-
-		Set evalImp=True
-		Set missingRate=10 or 20 or 30 or 40 or 50
-
-	For Prediction Testing model-
-		Set evalPred=True
-		Set pred_len=8 or 7 or 6 or 5
-
 ===============================Baseline=============================================
 Baseline
 To run Bi-GAN for EHR dataset - 
-To run Bi-GAN for air quality and MIMIC - 
 MICE -
 Run "baseline/MICE.ipynb"
 	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-		For EHR dataset, set ehr=True
 	
 	For Imputation Testing model-
 		Set imp=True
@@ -106,9 +68,6 @@ Run "baseline/MICE.ipynb"
 KNN-
 Run "baseline/knn.ipynb"
 	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-		For EHR dataset, set ehr=True
 	
 	For Imputation Testing model-
 		Set imp=True
@@ -121,9 +80,6 @@ Run "baseline/knn.ipynb"
 MEAN-
 Run "baseline/mean.ipynb"
 	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-		For EHR dataset, set ehr=True
 	
 	For Imputation Testing model-
 		Set imp=True
@@ -134,26 +90,9 @@ Run "baseline/mean.ipynb"
 		Set pred_len=8 or 7 or 6 or 5
 
 ===============================Bi-GAN Components=============================================
-Bi-GAN with Wasserstein Loss=============================================
+Bi-GAN without Discriminator=============================================
 To run biWgan for EHR dataset - 
-	Run "biWgan/main_Wgan.ipynb.ipynb"
-	For training model-
-		Set train=True
-
-	For Imputation Testing model-
-		Set evalImp=True
-		Set missingRate=10 or 20 or 30 or 40 or 50
-
-	For Prediction Testing model-
-		Set evalPred=True
-		Set pred_len=8 or 7 or 6 or 5
-
-To run biWgan for air quality and MIMIC - 
-	Run "biWgan/main_WganActivity.ipynb"
-	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
-
+	Run "biWgan/main_gan.ipynb.ipynb"
 	For training model-
 		Set train=True
 
@@ -179,21 +118,6 @@ To run lambda for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-To run lambda for air quality and MIMIC - 
-	Run "lambda/main_ganLambdaActivity.ipynb"
-	Input Arguments to be set -
-		For AirQuality dataset, set air=True
-		For MIMIC dataset, set mimic=True
 
-	For training model-
-		Set train=True
-
-	For Imputation Testing model-
-		Set evalImp=True
-		Set missingRate=10 or 20 or 30 or 40 or 50
-
-	For Prediction Testing model-
-		Set evalPred=True
-		Set pred_len=8 or 7 or 6 or 5
 
 NOTE: Change path of files as required
