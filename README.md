@@ -92,7 +92,7 @@ Run "baseline/mean.ipynb"
 ===============================Bi-GAN Components=============================================
 Bi-GAN without Discriminator=============================================
 To run biWgan for EHR dataset - 
-	Run "biWgan/main_gan.ipynb.ipynb"
+	Run "biWgan/main_Wgan.ipynb.ipynb"
 	For training model-
 		Set train=True
 
