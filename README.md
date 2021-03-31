@@ -5,14 +5,14 @@ PyTorch 1.2.0
 GPU - NVIDIA GeForce RTX 2080
 
 JupyterNotebook: 6.0.3
-===============================Data=============================================
+===============================Data=======================================
 All data initial files are in data folder.
 	AirQuality-
 	data->air->initial
 	MIMIC-
 	data->mimic->initial
 
-===============================Data Preprocessing===============================
+===============================Data Preprocessing=========================
 Run data_preporcessAir.ipynb for preprocessing AirQuality data
 Run data_preporcessMimic.ipynb for preprocessing AirQuality data
 	All data preprocessed files are in data folder.
@@ -21,7 +21,7 @@ Run data_preporcessMimic.ipynb for preprocessing AirQuality data
 	MIMIC-
 	data->mimic->preprocess
 	
-===============================Bi-GAN=============================================
+===============================Bi-GAN======================================
 To run Bi-GAN for EHR dataset - 
 	Run "biGan/main_ganOrig.ipynb"
 	For training model-
@@ -35,7 +35,7 @@ To run Bi-GAN for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================BRITS-I=============================================
+===============================BRITS-I=======================================
 BRITS-I
 To run BRITS-I for EHR dataset - 
 	Run "britsI/main - original.ipynb"
@@ -50,7 +50,7 @@ To run BRITS-I for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================Baseline=============================================
+===============================Baseline========================================
 Baseline
 To run Bi-GAN for EHR dataset - 
 MICE -
@@ -89,7 +89,7 @@ Run "baseline/mean.ipynb"
 		Set pred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================Bi-GAN Components=============================================
+===============================Bi-GAN Components=======================================
 Bi-GAN without Discriminator=============================================
 To run biWgan for EHR dataset - 
 	Run "biWgan/main_Wgan.ipynb.ipynb"
