@@ -5,6 +5,7 @@ PyTorch 1.2.0
 GPU - NVIDIA GeForce RTX 2080
 
 JupyterNotebook: 6.0.3
+
 ===============================Data=======================================
 
 All data initial files are in data folder.
@@ -23,7 +24,7 @@ Run data_preporcessMimic.ipynb for preprocessing AirQuality data
 	MIMIC-
 	data->mimic->preprocess
 	
-===============================Bi-GAN======================================
+===============================Bi-GAN==========================
 
 To run Bi-GAN for EHR dataset - 
 	Run "biGan/main_ganOrig.ipynb"
@@ -38,7 +39,7 @@ To run Bi-GAN for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================BRITS-I=======================================
+===============================BRITS-I============================
 
 BRITS-I
 To run BRITS-I for EHR dataset - 
@@ -54,7 +55,7 @@ To run BRITS-I for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================Baseline========================================
+===============================Baseline=========================
 
 Baseline
 To run Bi-GAN for EHR dataset - 
@@ -94,9 +95,9 @@ Run "baseline/mean.ipynb"
 		Set pred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-===============================Bi-GAN Components=======================================
+===============================Bi-GAN Components=================
 
-Bi-GAN without Discriminator=============================================
+Bi-GAN without Discriminator=====================================
 
 To run biWgan for EHR dataset - 
 	Run "biWgan/main_Wgan.ipynb.ipynb"
@@ -111,7 +112,7 @@ To run biWgan for EHR dataset -
 		Set evalPred=True
 		Set pred_len=8 or 7 or 6 or 5
 
-Bi-GAN without Lambda=============================================
+Bi-GAN without Lambda=======================================
 
 To run lambda for EHR dataset - 
 	Run "lambda/main_ganLambda.ipynb"
