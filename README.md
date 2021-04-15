@@ -58,7 +58,18 @@ To run BRITS-I for EHR dataset -
 ===============================Baseline=========================
 
 Baseline
-To run Bi-GAN for EHR dataset - 
+MRNN -
+Run "mrnn/mrnnBaseline.ipynb"
+	Input Arguments to be set -
+	
+	For Imputation Testing model-
+		Set imp=True
+		Set missingRate=10 or 20 or 30 or 40 or 50
+	
+	For Prediction Testing model-
+		Set pred=True
+		Set pred_len=8 or 7 or 6 or 5
+
 MICE -
 Run "baseline/MICE.ipynb"
 	Input Arguments to be set -
