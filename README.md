@@ -17,11 +17,17 @@ All data initial files are in data folder.
 ===============================Data Preprocessing=========================
 
 Run data_preporcessAir.ipynb for preprocessing AirQuality data
-Run data_preporcessMimic.ipynb for preprocessing AirQuality data
-	All data preprocessed files are in data folder.
+
+Run data_preporcessMimic.ipynb for preprocessing MIMIC data
+	
+	All data preprocessed files are in "data" folder.
+	
 	AirQuality-
+	
 	data->air->preprocess
+	
 	MIMIC-
+	
 	data->mimic->preprocess
 	
 ===============================Bi-GAN==========================
